@@ -9,6 +9,7 @@ Grafanaと連携することで、リアルタイムに監視することがで�
 
 - ESP32 Devkit
 - SHT31 (温湿度センサ)
+  - I2Cで通信します
 - サーバー
   - Python 3
   - InfluxDB (2.x)

@@ -27,12 +27,6 @@ Grafanaと連携することで、リアルタイムに監視することがで�
 3. InfluxDB
   - センサーデータを保存
 4. Grafana
-  - InfluxDBからデータを取得して可視化3. InfluxDB
-    - センサーデータを保存
-4. Grafana
-  - InfluxDBからデータを取得して可視化3. InfluxDB
-    - センサーデータを保存
-4. Grafana
   - InfluxDBからデータを取得して可視化
 
 # Usage

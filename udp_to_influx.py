@@ -4,8 +4,8 @@ from influxdb_client import InfluxDBClient, Point
 
 URL = "http://localhost:8086"
 TOKEN = os.getenv("INFLUXDB_TOKEN")
-ORG = "nitkc"
-BUCKET = "esp-iot"
+ORG = os.getenv("INFLUXDB_ORG", "nitkc")
+BUCKET = os.getenv("INFLUXDB_BUCKET", "esp-iot")
 
 UDP_IP = "0.0.0.0"
 UDP_PORT = 12345
